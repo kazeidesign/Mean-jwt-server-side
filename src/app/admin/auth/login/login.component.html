@@ -1,0 +1,9 @@
+<form class="example-form" (ngSubmit)="auth()">
+    <md-form-field class="example-full-width">
+        <input type="email" mdInput placeholder="Email" [(ngModel)]="user.email" name="email">
+    </md-form-field>
+    <md-form-field class="example-full-width">
+        <input type="password" mdInput placeholder="Password" [(ngModel)]="user.password" name="password">
+    </md-form-field>
+    <button md-raised-button color="primary" type="submit">Login</button>
+</form>

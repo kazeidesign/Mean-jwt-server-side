@@ -1,0 +1,5 @@
+<h1>Liste de toutes les pages</h1>
+
+<ul>
+    <li *ngFor="let item of pages"><a [routerLink]="['/admin/page/', item.slug]">{{ item.title }}</a></li>
+</ul>

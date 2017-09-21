@@ -1,0 +1,13 @@
+<form class="example-form">
+    <md-form-field class="example-full-width">
+        <input mdInput placeholder="Title" [(ngModel)]="page.title" name="title">
+    </md-form-field>
+    <app-tinymce [(ngModel)]='page.content' name="content"></app-tinymce>
+    <md-checkbox [(ngModel)]="page.publish" name="publish">Published</md-checkbox>
+    <button md-raised-button color="primary">Save</button>
+</form>
+
+<hr>
+<h4>Preview</h4>
+
+<div [innerHTML]="page.content"></div>

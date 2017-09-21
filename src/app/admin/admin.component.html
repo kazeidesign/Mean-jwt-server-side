@@ -1,0 +1,15 @@
+<md-toolbar>
+  Administration
+  <span class="example-spacer"></span>
+  <a md-button href="/">Site</a>
+  <a md-button href="/logout">Logout</a>
+</md-toolbar>
+
+<div class="sidebar">
+  <h4>Sidebar</h4>
+  <a [routerLink]="['/admin/pages']">Pages</a>
+</div>
+
+<main class="main">
+  <router-outlet></router-outlet>
+</main>

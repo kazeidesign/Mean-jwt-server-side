@@ -1,0 +1,11 @@
+.sidebar {
+    width: 13vw;
+    height: 98vh;
+    float: left;
+    padding: 2vh 1vw;
+    background-color: #f5f5f5;
+}
+
+.main {
+    width: 75vw;
+}
